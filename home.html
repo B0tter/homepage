@@ -1,80 +1,124 @@
+<!-- any improvements are more than welcome -->
+
 <!DOCTYPE html>
-<!--    Copyright 2014 gokoururi
-        This work is free. You can redistribute it and/or modify it under the
-        terms of the Do What The Fuck You Want To Public License, Version 2,
-        as published by Sam Hocevar. See the COPYING file for more details. -->
 <html>
     <head>
+        <META HTTP-EQUIV="refresh" CONTENT="60">
         <meta charset="utf-8">
-        <title>Welcome Home</title>
+        <title>Welcome.</title>
         <link rel="icon" href="images/ruri.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon" />
         <link rel="stylesheet" style="text/css" href="css/general.css" />
-        <link rel="stylesheet" style="text/css" href="css/dark.css" title="Kuroneko" />
-        <link rel="alternate stylesheet" style="text/css" href="css/light.css" title="Kamineko" />
+        <link rel="stylesheet" style="text/css" href="css/dark.css" />
         <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
     </head>
     <body>
         <main> <!-- Random mascot image will be set as background-image by javascript -->
             <header>
-                <h1>Welcome to the Internet, <span class="highlite">Goshujin-sama</span></h1>
-                <p class="subtitle">Its not like I like you or anything</p>
+              <h1>
+                Welcome to my website, <span class="highlite"><3</span></a>
+              </h1>
+              <p class="subtitle">Subtitle</p>
+               <p class="subtitle">
+                <script language = "JavaScript">
+                  var Quotation=new Array()
+				  <!-- To add more quote just follow the format below -->
+                   Quotation[0] = "Quote 0";
+                   Quotation[1] = "Quote 1";
+                   Quotation[2] = "Quote 2";
+                   Quotation[3] = "Quote 3";
+                 var Q = Quotation.length;
+                 var whichQuotation=Math.round(Math.random()*(Q-1));
+                 function showQuotation(){document.write(Quotation[whichQuotation]);}
+                 showQuotation();
+                </script>
+               </p>
             </header>
             <section class="searchContainer">
-                <form class="searchForm" method="get" action="https://google.com/search">
-                    <input class="searchBar google" type="text" name="q" placeholder="Google" autofocus="autofocus" />
+                <form class="searchForm" method="get" action="https://startpage.com/row/search" target = "_blank">
+                    <input class="searchBar startpage" type="text" name="q" placeholder="Startpage" autofocus="autofocus" />
                 </form>
-                <form class="searchForm" method="get" action="https://youtube.com/results">
+                <form class="searchForm" method="get" action="https://www.google.co.uk/search?site=&source=hp&q=" target = "_blank">
+                    <input class="searchBar google" type="text" name="search_query" placeholder="Google" />
+                </form>
+                <form class="searchForm" method="get" action="https://youtube.com/results" target = "_blank">
                     <input class="searchBar youtube" type="text" name="search_query" placeholder="Youtube" />
                 </form>
-                <form class="searchForm" method="get" action="https://en.wikipedia.org/w/index.php">
+                <form class="searchForm" method="get" action="https://en.wikipedia.org/w/index.php" target = "_blank">
                     <input class="searchBar wikipedia" type="text" name="search" placeholder="Wikipedia (en)" />
                 </form>
             </section>
             <nav>
                 <ul class="buttonList">
-                    <li class="button buttonGreen"><a href="http://github.com/gokoururi/homepage">Github</a></li>
-                    <li class="button buttonGrey"><a href="#">Gelbooru</a></li>
-                    <li class="button buttonGrey buttonArrow">
-                        <a href="#">Duke of Earl</a>
+                    <li class="button buttonGreen buttonArrow">
+                        <a href="#">Code</a>
                         <ul>
-                            <li><a href="#">When I hold you</a></li>
-                            <li><a href="#">In my Arms</a></li>
-                            <li><a href="#">You are my duchess</a></li>
-                            <li><a href="#">Of earl</a></li>
+                            <li><a href="https://github.com/gokoururi/homepage" target = "_blank"> Original version of this site. </a></li>
+                        </ul>
+                    </li>
+                    <li class="button buttonPink buttonArrow">
+                        <a href="#">Links 01</a>
+                        <ul>
+                            <li><a href="#" target = "_blank">Link</a></li>
+                            <li><a href="#" target = "_blank">Link</a></li>
+                        </ul>
+                    </li>
+                    <li class="button buttonBlue buttonArrow">
+                        <a href="#">Social</a>
+                        <ul>
+                            <li><a href="https://www.facebook.com/" target = "_blank">Facebook</a></li>
+                            <li><a href="https://forum.xda-developers.com/" target = "_blank">XDA Forums</a></li>   
+                            <li><a href="https://twitter.com/r00tget" target = "_blank">Twitter</a></li>
+                            <li><a href="https://steamcommunity.com/" target = "_blank">Steam</a></li>
+                        </ul>
+                    </li>
+                    <li class="button buttonPink buttonArrow">
+                        <a href="#">Email</a>
+                        <ul>
+                            <li><a href="https://www.gmail.com" target = "_blank">Google Mail</a></li>
+                            <li><a href="https://protonmail.ch" target = "_blank">Protonmail</a></li>
+                            <li><a href="https://www.guerrillamail.com/" target = "_blank">Gurrilla Mail</a></li>
+                            <li><a href="https://securemail.hidemyass.com/" target = "_blank">HMA Mail</a></li>
+                            <li><a href="https://cock.li" target = "_blank">Cock.li (NSFW)</a></li>
                         </ul>
                     </li>
                 </ul>
                 <ul class="columnList">
-                    <li class="column columnPurple">
+                    <li class="column columnBlue">
                         <a>Resources</a>
                         <ul>
-                            <li><a href="https://drive.google.com/folderview?id=0B_VmbVyD4eT3N1VUbGN4Wjd5OVE">Cute 2D Girls</a></li>
-                            <li><a href="https://developer.mozilla.org//">MDN</a></li>
-                            <li><a href="https://wiki.installgentoo.com/">Install Gentoo</a></li>
+                            <li><a href="https://wiki.installgentoo.com" target = "_blank">/g/ Wiki</a></li>
+                            <li><a href="http://www.learnpython.org/" target = "_blank">Learn Python</a></li>
+                            <li><a href="https://www.codecademy.com/" target = "_blank">Code academy</a></li>
                         </ul>
                     </li>
                     <li class="column columnGreen">
-                        <a>4chon</a>
+                        <a href="https://www.4chan.org/" target = "_blank">4chan</a>
                         <ul>
-                            <li><a href="http://boards.4chan.org/v/">Video Games</a></li>
-                            <li><a href="http://boards.4chan.org/vg/">Video Game General</a></li>
-                            <li><a href="http://boards.4chan.org/g/">Technology</a></li>
-                            <li><a href="http://boards.4chan.org/jp/">Otaku Culture</a></li>
+                            <li><a href="https://boards.4chan.org/g/" target = "_blank">/g/ (Technology)</a></li>
+                            <li><a href="https://boards.4chan.org/v/" target = "_blank">/vg/ (Video Games)</a></li>
+                            <li><a href="https://boards.4chan.org/wg/" target = "_blank">/wg/ (Wallpapers)</a></li>
+                            <li><a href="https://boards.4chan.org/b/" target = "_blank">/b/ (Cancer)</a></li>
                         </ul>
                     </li>
                     <li class="column columnPink">
-                        <a>Animution</a>
+                        <a>Link Pink</a>
                         <ul>
-                            <li><a href="http://bakabt.me">Bakabt</a></li>
-                            <li><a href="http://www.nyaa.se/">Nyaa</a></li>
-                            <li><a href="http://utw.me">UTW</a></li>
-                            <li><a href="http://mazuisubs.com">Mazui</a></li>
+                            <li><a href="#" target = "_blank">Link</a></li>
+                        </ul>
+                    </li>
+                    <li class="column columnPink">
+                        <a>Torrents</a>
+                        <ul>
+                            <li><a href="http://proxybay.xyz/" target = "_blank">The Pirate Bay</a></li>
+                            <li><a href="http://kickasstorrent.link/" target = "_blank">Kickass Torrents</a></li>
+                            <li><a href="http://isohunt.to/" target = "_blank">Isohunt</a></li>
+                            <li><a href="http://www.demonoid.ph/" target = "_blank">Demonoid</a></li>
                         </ul>
                     </li>
                 </ul>
             </nav>
+            <p class="subtitle">Kind of like a footer</p>
         </main>
     </body>
 </html>
-
