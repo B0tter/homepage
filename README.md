@@ -22,9 +22,9 @@ Customizing and adding mascots
 
 To hide the jitterbug controls to stop people pausing it change to this
 
-```	<audio autoplay>
-    <source src="http://www.directlinkupload.com/uploads/138.199.64.75/jitter.mp3" type="audio/mpeg">
-    </audio> 
+```<audio autoplay>
+   <source src="http://www.directlinkupload.com/uploads/138.199.64.75/jitter.mp3" type="audio/mpeg">
+   </audio> 
 ```
 
 ===
