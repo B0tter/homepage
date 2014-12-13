@@ -1,97 +1,97 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-  <title>Homepage</title>
-  <meta name="description" content="Fork of a guys homepage">
+    <title>Homepage by B0tter</title>
+  </head>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-</head>
-
-<body>
-
-  <div class="wrapper">
+  <body>
     <header>
-      <h1 class="title">Homepage</h1>
+      <div class="inner">
+        <h1>Homepage</h1>
+        <h2>Fork of gokoururis homepage</h2>
+        <a href="https://github.com/B0tter/homepage" class="button"><small>View project on</small> GitHub</a>
+      </div>
     </header>
-    <div id="container">
-      <p class="tagline">Fork of a guys homepage</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/B0tter/homepage/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/B0tter/homepage/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/B0tter/homepage" class="code">View Homepage on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
           <h1>
 <a id="homepage" class="anchor" href="#homepage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Homepage</h1>
 
-<p><img src="http://s30.postimg.org/rz03rgg6p/Untitled.png" alt="Screenshot"></p>
+<p><img src="https://raw.githubusercontent.com/B0tter/homepage/master/screenshots/Untitled.png" alt="alt tag"></p>
+
+<p><strong>Gokouris live Demos: <a href="http://gokoururi.github.io/homepage/">Dark</a> - <a href="http://gokoururi.github.io/homepage/index-light.html">Light</a></strong></p>
 
 <p>This repository contains a custom homepage made using html, css and javascript (node.js). Feel free to download and modify. Comments and suggestions appreciated. Please don't expect too much.</p>
 
 <p>Features:</p>
 
 <ul>
-<li>Random quote selector </li>
+<li>Plays that catchy jitterbug song</li>
+<li>Random quote picker</li>
 <li>Flashy links</li>
 <li>Flashy Slidy sublinks</li>
 <li>Flashy Slidy searchbars </li>
-<li>Randomly selected backgrounds</li>
+<li>Randomly selected cute 2D girls</li>
 <li>Column style links.</li>
+<li>
+<strong>New</strong>: Light color theme. See <a href="http://gokoururi.github.io/homepage/index-light.html">Live Demo</a>
+</li>
 </ul>
 
 <h1>
 <a id="customizing-and-adding-mascots" class="anchor" href="#customizing-and-adding-mascots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Customizing and adding mascots</h1>
 
+<p>To hide the jitterbug controls to stop people pausing it change to this</p>
+
+<div class="highlight highlight-html"><pre>   &lt;<span class="pl-ent">audio</span> <span class="pl-e">autoplay</span>&gt;
+   &lt;<span class="pl-ent">source</span> <span class="pl-e">src</span>=<span class="pl-s1"><span class="pl-pds">"</span>http://www.directlinkupload.com/uploads/138.199.64.75/jitter.mp3<span class="pl-pds">"</span></span> <span class="pl-e">type</span>=<span class="pl-s1"><span class="pl-pds">"</span>audio/mpeg<span class="pl-pds">"</span></span>&gt;
+   &lt;/<span class="pl-ent">audio</span>&gt; </pre></div>
+
+<h1></h1>
+
 <p>To customize mascots modify the following values in <a href="js/scripts.js">javascript</a>:</p>
 
-<h1></h1>
+<div class="highlight highlight-javascript"><pre>    <span class="pl-s">var</span> mascotEnable    <span class="pl-k">=</span> <span class="pl-c1">true</span>;
+    <span class="pl-s">var</span> mascotPath      <span class="pl-k">=</span> <span class="pl-s1"><span class="pl-pds">"</span>images/mascots/<span class="pl-pds">"</span></span>
+    <span class="pl-s">var</span> mascotList      <span class="pl-k">=</span> [ <span class="pl-s1"><span class="pl-pds">'</span>ruri1.png<span class="pl-pds">'</span></span>, <span class="pl-s1"><span class="pl-pds">'</span>ruri2.png<span class="pl-pds">'</span></span>, <span class="pl-s1"><span class="pl-pds">'</span>ruri3.png<span class="pl-pds">'</span></span> ];</pre></div>
 
-<pre><code>var mascotEnable    = true;
-var mascotPath      = "images/mascots/"
-var mascotList      = [ 'image1.png', 'image2.png', 'image3.png', 'image4.png' ];
-</code></pre>
-
-<h1></h1>
-
-<h1>
-<a id="disclaimer" class="anchor" href="#disclaimer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Disclaimer</h1>
+<h2>
+<a id="disclaimer" class="anchor" href="#disclaimer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Disclaimer</h2>
 
 <p>Images of cute girls were made by Anons from /w/ and stolen from their <a href="https://drive.google.com/folderview?id=0B_VmbVyD4eT3N1VUbGN4Wjd5OVE">Google Drive</a>.</p>
-        </article>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/B0tter/homepage/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/B0tter/homepage/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/B0tter/homepage"></a> is maintained by <a href="https://github.com/B0tter">B0tter</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
       </div>
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/B0tter" class="avatar"><img src="https://avatars1.githubusercontent.com/u/8068563?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/B0tter">B0tter</a> maintains <a href="https://github.com/B0tter/homepage">Homepage</a></p>
-
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/B0tter/homepage/tarball/master" class="tar">tar</a><a href="https://github.com/B0tter/homepage/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
 
   
-</body>
+  </body>
 </html>
